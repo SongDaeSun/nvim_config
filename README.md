@@ -1,14 +1,24 @@
 # nvim_config
-## 설치법
+## Installization
 ### Mac OS
-nvim 설치
+install nvim
 ~~~
 brew install neovim
 ~~~
 ### Linux OS
-nvim 설치
+install nvim
 ~~~
 sudo apt update
 sudo apt install neovim python-neovim python3-neovim
 ~~~
 
+### make nvim config file
+make directory for nvim config files
+~~~
+mkdir ~/.config/nvim
+~~~
+
+download this repo
+~~~
+
+~~~

@@ -70,6 +70,15 @@ sudo apt-get install -y nodejs
 nvim +PlugInstall +qall
 ~~~
 
+### make language server folder
+~~~
+mkdir /Users/{name}/.config/coc/extensions/node_modules
+~~~
+ex)
+~~~
+mkdir /Users/songdaesun/.config/coc/extensions/node_modules
+~~~
+
 ### 1) C/C++ for CoC in Mac OS
 ~~~
 brew update && brew upgrade
@@ -83,7 +92,7 @@ in vim, run :CocInstall coc-clangd
 sudo apt install clangd-9
 sudo update-alternatives --install /usr/bin/clangd clangd /usr/bin/clangd-9 100
 ~~~
-in vim, run :CocInstall coc-clangd
+in vim, run ~:CocInstall coc-clangd~
 
 ### python for CoC 
 ~~~

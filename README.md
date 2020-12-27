@@ -35,9 +35,15 @@ cp nvim_config/init.vim ~/.config/nvim/init.vim
 ~~~
 python3 -m pip install --user neovim
 ~~~
+
+### install nvim plugin manager
+~~~
+curl -fLo ${XDG_DATA_HOME:-~/.local/share}/nvim/site/autoload/plug.vim \
+   --create-dirs https://raw.githubusercontent.com/junegunn/vim-plug/master/plug.vim
+~~~
 ### initial nvim as default 
-add commands below to your proper enviroments
-(ex) ~/.zshrc, ~/.bashrc, ~/.alias ... etc)
+add commands below to your proper enviroments  
+ex) ~/.zshrc, ~/.bashrc, ~/.alias ... etc  
 ~~~
 alias vim="nvim"
 alias vi="nvim"

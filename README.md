@@ -72,6 +72,7 @@ nvim +PlugInstall +qall
 
 ### 1) C/C++ for CoC in Mac OS
 ~~~
+brew update && brew upgrade
 brew install llvm
 echo 'export PATH="/usr/local/opt/llvm/bin:$PATH"' >> ~/.zshrc
 ~~~

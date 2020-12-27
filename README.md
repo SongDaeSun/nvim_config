@@ -35,6 +35,16 @@ cp nvim_config/init.vim ~/.config/nvim/init.vim
 ~~~
 python3 -m pip install --user neovim
 ~~~
+### initial nvim as default 
+add commands below to your proper enviroments
+(ex) ~/.zshrc, ~/.bashrc, ~/.alias ... etc)
+~~~
+alias vim="nvim"
+alias vi="nvim"
+alias vimdiff="nvim -d"
+export EDITOR=/usr/local/bin/nvim
+~~~
+
 
 ### 1) install CoC for Mac OS
 ~~~

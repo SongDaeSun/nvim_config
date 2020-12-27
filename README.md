@@ -35,3 +35,23 @@ cp nvim_config/init.vim ~/.config/nvim/init.vim
 ~~~
 python3 -m pip install --user neovim
 ~~~
+
+### 1) install CoC for Mac OS
+~~~
+curl -fLo ~/.vim/autoload/plug.vim --create-dirs https://raw.githubusercontent.com/junegunn/vim-plug/master/plug.vim
+curl -sL install-node.now.sh/lts | bash
+~~~
+
+### 2) install CoC for linux OS
+~~~
+sh -c 'curl -fLo "${XDG_DATA_HOME:-$HOME/.local/share}"/nvim/site/autoload/plug.vim --create-dirs https://raw.githubusercontent.com/junegunn/vim-plug/master/plug.vim'
+curl -sL https://deb.nodesource.com/setup_12.x | sudo -E bash -
+sudo apt-get install -y nodejs
+~~~
+
+### Install plugins
+~~~
+nvim +PlugInstall +qall
+~~~
+
+### 

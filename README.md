@@ -70,4 +70,24 @@ sudo apt-get install -y nodejs
 nvim +PlugInstall +qall
 ~~~
 
-### 
+### 1) C/C++ for CoC in Mac OS
+~~~
+brew install llvm
+echo 'export PATH="/usr/local/opt/llvm/bin:$PATH"' >> ~/.zshrc
+~~~
+in vim, run :CocInstall coc-clangd
+
+### 2) C/C++ for CoC in Linux OS
+~~~
+sudo apt install clangd-9
+sudo update-alternatives --install /usr/bin/clangd clangd /usr/bin/clangd-9 100
+~~~
+in vim, run :CocInstall coc-clangd
+
+### python for CoC 
+~~~
+python3 -m pip install --user jedi pylint
+~~~
+in vim, run :CocInstall coc-python
+
+

@@ -92,7 +92,7 @@ in vim, run :CocInstall coc-clangd
 sudo apt install clangd-9
 sudo update-alternatives --install /usr/bin/clangd clangd /usr/bin/clangd-9 100
 ~~~
-in vim, run ~:CocInstall coc-clangd~
+in vim, run :CocInstall coc-clangd
 
 ### python for CoC 
 ~~~

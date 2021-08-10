@@ -15,6 +15,7 @@ sudo apt install neovim python-neovim python3-neovim
 ### 3) Windows
 Just install wsl2(linux)
 
+___
 ### make nvim config file
 make directory for nvim config files
 ~~~
@@ -51,7 +52,7 @@ alias vimdiff="nvim -d"
 export EDITOR=/usr/local/bin/nvim
 ~~~
 
-
+___
 ### 1) install CoC for Mac OS
 ~~~
 curl -fLo ~/.vim/autoload/plug.vim --create-dirs https://raw.githubusercontent.com/junegunn/vim-plug/master/plug.vim
@@ -64,6 +65,8 @@ sh -c 'curl -fLo "${XDG_DATA_HOME:-$HOME/.local/share}"/nvim/site/autoload/plug.
 curl -sL https://deb.nodesource.com/setup_12.x | sudo -E bash -
 sudo apt-get install -y nodejs
 ~~~
+
+___
 
 ### Install plugins
 ~~~
@@ -79,6 +82,7 @@ ex)
 mkdir /Users/songdaesun/.config/coc/extensions/node_modules
 ~~~
 
+___
 ### 1) C/C++ for CoC in Mac OS
 ~~~
 brew update && brew upgrade
@@ -94,6 +98,7 @@ sudo update-alternatives --install /usr/bin/clangd clangd /usr/bin/clangd-9 100
 ~~~
 in vim, run :CocInstall coc-clangd
 
+___
 ### python for CoC 
 ~~~
 python3 -m pip install --user jedi pylint

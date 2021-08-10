@@ -73,6 +73,9 @@ ___
 nvim +PlugInstall +qall
 ~~~
 
+
+___
+### 1) C/C++ for CoC in Mac OS
 ### make language server folder
 ~~~
 mkdir /Users/{name}/.config/coc/extensions/node_modules
@@ -82,8 +85,6 @@ ex)
 mkdir /Users/songdaesun/.config/coc/extensions/node_modules
 ~~~
 
-___
-### 1) C/C++ for CoC in Mac OS
 ~~~
 brew update && brew upgrade
 brew install llvm
@@ -92,6 +93,15 @@ echo 'export PATH="/usr/local/opt/llvm/bin:$PATH"' >> ~/.zshrc
 in vim, run :CocInstall coc-clangd
 
 ### 2) C/C++ for CoC in Linux OS
+### make language server folder
+~~~
+mkdir /home/{name}/.config/coc/extensions/node_modules
+~~~
+ex)
+~~~
+mkdir /home/songdaesun/.config/coc/extensions/node_modules
+~~~
+
 ~~~
 sudo apt install clangd-9
 sudo update-alternatives --install /usr/bin/clangd clangd /usr/bin/clangd-9 100
